@@ -1,0 +1,9 @@
+{
+  "customer_id": "cust_9981",
+  "plan_sexp": "(max-cap (min-charge (+ (tiered (usage \"compute_units\") '((0 100 0.05) (100 500 0.04) (500 nil 0.03))) (overage (usage \"storage_gb\") 1000 0.02) (volume (usage \"egress_gb\") 0.12)) 10.0) 500.0)",
+  "usage": {
+    "compute_units": 150,
+    "storage_gb": 1200,
+    "egress_gb": 50
+  }
+}
